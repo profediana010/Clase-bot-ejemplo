@@ -33,7 +33,7 @@ async def bye(ctx):
     await ctx.send('chau')
     
 @bot.command()
-async def psw(ctx, longitud= 8):
+async def psw(ctx, longitud= 10):
     await ctx.send(f'Tu contraseña es 🙊: {gen_pass(longitud)}')
 
 @bot.command()
